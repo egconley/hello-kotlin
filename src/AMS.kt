@@ -1,10 +1,15 @@
 import java.util.*
 
 fun main(args: Array<String>) {
-    println("${if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)<12) "Good morning" else "Good night"}, ${args[0]}!")
+    println("${if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) < 12) "Good morning" else "Good night"}, ${args[0]}!")
     dayOfWeek()
     feedTheFish()
-    getFortuneCookie()
+//    val bday = getBiirthday()
+//    getFortuneCookie(bday)
+    println("test 1: " + canAddFish(10.0, listOf(3,3,3)))
+    println("test 2: " + canAddFish(8.0, listOf(2,2,2), hasDecorations = false))
+    println("test 3: " + canAddFish(9.0, listOf(1,1,3), 3))
+    println("test 4: " + canAddFish(10.0, listOf(), 7, true))
 }
 
 fun dayOfWeek() {
@@ -23,25 +28,83 @@ fun dayOfWeek() {
 
 fun feedTheFish() {
     val day = randomDay()
-    val food = "pellets"
+    val food = fishFood(day)
+    shouldChangeWater(day=day)
     println("Today is $day and the fish eat $food")
 }
 
-fun randomDay(): String {
+fun randomDay() : String {
    val week = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
     return week[Random().nextInt(7)]
 }
 
-fun getFortuneCookie(): String {
+fun fishFood(day : String) : String {
+    // verbose way
+//    var food = "fasting"
+//
+//    when (day) {
+//        "Monday" -> food = "flakes"
+//        "Tuesday" -> food = "pellets"
+//        "Wednesday" -> food = "redworms"
+//        "Thursday" -> food = "granules"
+//        "Friday" -> food = "mosquitos"
+//        "Saturday" -> food = "lettuce"
+//        "Sunday" -> food = "plankton"
+//    }
+//    return food
+
+    // clean way
+    return when (day) {
+        "Monday" -> "flakes"
+        "Tuesday" -> "pellets"
+        "Wednesday" -> "redworms"
+        "Thursday" -> "granules"
+        "Friday" -> "mosquitos"
+        "Saturday" -> "lettuce"
+        "Sunday" ->  "plankton"
+        else -> "fasting"
+    }
+}
+
+// default values - best practice to list arguments with default values last
+fun shouldChangeWater(
+        day: String,
+        temperature: Int=22,
+        dirty: Int=20) : Boolean {
+    return true
+}
+
+fun canAddFish(tankSize: Double,
+               currentFish: List<Int>,
+               fishSize: Int=2,
+               hasDecorations: Boolean=true) : Boolean {
+    // alternate return statement
+//    return (tankSize * if (hasDecorations) 0.8 else 1.0) >= (currentFish.sum() + fishSize)
+    return if (hasDecorations) {
+        tankSize*0.8 - currentFish.sum() >= fishSize
+    } else {
+        tankSize - currentFish.sum()  >= fishSize
+    }
+}
+
+fun getFortuneCookie(bday : Int) : String {
     val fortunes = listOf("You will have a great day!",
-        "Things will go well for you today.",
-        "Enjoy a wonderful day of success.",
-        "Be humble and all will turn out well.",
-        "Today is a good day for exercising restraint.", "Take it easy and enjoy life!",
-        "Treasure your friends because they are your greatest fortune.")
+            "Things will go well for you today.",
+            "Enjoy a wonderful day of success.",
+            "Be humble and all will turn out well.",
+            "Today is a good day for exercising restraint.", "Take it easy and enjoy life!",
+            "Treasure your friends because they are your greatest fortune.")
+    val index = when (bday) {
+        in 1..7 -> 4
+        28, 31 -> 2
+        else -> bday.rem(fortunes.size)
+    }
+    println("${fortunes[index]}")
+    return fortunes[index]
+}
+
+fun getBiirthday() : Int {
     print("\nEnter your birthday: ")
-    val birthday = readLine()?.toIntOrNull() ?: 1
-    println("${fortunes[birthday.rem(fortunes.size)]}")
-    return fortunes[birthday.rem(fortunes.size)]
+    return readLine()?.toIntOrNull() ?: 1
 }
 
