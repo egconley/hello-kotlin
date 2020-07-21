@@ -6,4 +6,6 @@ fun main (args: Array<String>) {
     val mySimpleSpice = SimpleSpice()
     println(mySimpleSpice.name)
     println(mySimpleSpice.heat)
+
+    delegate()
 }

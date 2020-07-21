@@ -2,6 +2,7 @@ package aquarium
 
 fun main (args: Array<String>) {
     buildAquarium()
+    makeFish()
 }
 
 fun buildAquarium() {
@@ -26,4 +27,19 @@ fun buildAquarium() {
             "length ${anotherAquarium.length} " +
             "width: ${anotherAquarium.width} " +
             "height: ${anotherAquarium.height} ")
+}
+
+// feedFish implements FishAction interface (fish parameter is of type FishAction)
+fun feedFish(fish: FishAction){
+    fish.eat()
+}
+
+fun makeFish() {
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("Shark: ${shark.color} \n Plecostomus: ${pleco.color}")
+
+    shark.eat()
+    pleco.eat()
 }
