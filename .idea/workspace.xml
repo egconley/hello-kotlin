@@ -4,7 +4,6 @@
     <list default="true" id="7c125730-422b-4f5e-ae61-1c361120bcc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aquarium/Aquarium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aquarium/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spice/Spice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spice/Spice.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Kotlin File" />
       </list>
     </option>
