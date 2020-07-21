@@ -1,3 +1,4 @@
+import java.lang.Math.random
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -67,12 +68,42 @@ fun fishFood(day : String) : String {
 }
 
 // default values - best practice to list arguments with default values last
+// function call can be default value
+// default parameters are evaluated at call time, so be wary of using expensive default functions here,
+// like reading files, or something that takes a lot of memory
 fun shouldChangeWater(
         day: String,
         temperature: Int=22,
-        dirty: Int=20) : Boolean {
-    return true
+        dirty: Int=getDirtySensorReading()) : Boolean {
+
+    // before refactor
+//    val isTooHot = temperature > 30
+//    val isDirty = dirty > 30
+//    val isSunday = day == "Sunday"
+//
+//    return when {
+//        isTooHot -> true
+//        isDirty -> true
+//        isSunday -> true
+//        else -> false
+//    }
+
+    // after refactor
+    return when {
+        isTooHot(temperature) -> true
+        isDirty(dirty) -> true
+        isSunday(day) -> true
+        else -> false
+    }
 }
+
+// Boolean return value implied
+fun isTooHot(temperature: Int) = temperature > 30
+fun isDirty(dirty: Int) = dirty > 30
+fun isSunday(day: String) = day == "Sunday"
+
+// default return values for functions
+fun getDirtySensorReading() = 20
 
 fun canAddFish(tankSize: Double,
                currentFish: List<Int>,
@@ -86,6 +117,7 @@ fun canAddFish(tankSize: Double,
         tankSize - currentFish.sum()  >= fishSize
     }
 }
+
 
 fun getFortuneCookie(bday : Int) : String {
     val fortunes = listOf("You will have a great day!",

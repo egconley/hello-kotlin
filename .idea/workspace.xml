@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c125730-422b-4f5e-ae61-1c361120bcc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
     </list>
@@ -36,7 +35,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.DayPlannerKt">
     <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="hello-kotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -50,8 +49,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DayPlannerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="hello-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="DayPlannerKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DayPlannerKt" />
         <item itemvalue="Kotlin.AMSKt" />
       </list>
     </recent_temporary>
@@ -82,26 +95,26 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="435" y="95" key="#com.intellij.ide.macro.MacrosDialog/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595286869068" />
-    <state width="1238" height="225" key="GridCell.Tab.0.bottom" timestamp="1595347372933">
+    <state width="1238" height="225" key="GridCell.Tab.0.bottom" timestamp="1595350916655">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595342536423" />
-    <state width="1238" height="225" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595347372933" />
-    <state width="1238" height="225" key="GridCell.Tab.0.center" timestamp="1595347372931">
+    <state width="1238" height="225" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595350916655" />
+    <state width="1238" height="225" key="GridCell.Tab.0.center" timestamp="1595350916654">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595342536422" />
-    <state width="1238" height="225" key="GridCell.Tab.0.center/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595347372931" />
-    <state width="1238" height="225" key="GridCell.Tab.0.left" timestamp="1595347372930">
+    <state width="1238" height="225" key="GridCell.Tab.0.center/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595350916654" />
+    <state width="1238" height="225" key="GridCell.Tab.0.left" timestamp="1595350916653">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595342536421" />
-    <state width="1238" height="225" key="GridCell.Tab.0.left/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595347372930" />
-    <state width="1238" height="225" key="GridCell.Tab.0.right" timestamp="1595347372932">
+    <state width="1238" height="225" key="GridCell.Tab.0.left/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595350916653" />
+    <state width="1238" height="225" key="GridCell.Tab.0.right" timestamp="1595350916655">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595342536422" />
-    <state width="1238" height="225" key="GridCell.Tab.0.right/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595347372932" />
+    <state width="1238" height="225" key="GridCell.Tab.0.right/0.23.1280.729/1280.23.1024.745@0.23.1280.729" timestamp="1595350916655" />
     <state x="140" y="31" key="SettingsEditor" timestamp="1595277742581">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
