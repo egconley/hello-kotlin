@@ -18,4 +18,12 @@ fun buildAquarium() {
 
     println("Height: ${myAquarium.height}  cm")
     println("Volume: ${myAquarium.volume}  liters")
+
+    val smallAquarium = Aquarium(length = 20, width = 15, height = 30)
+    val anotherAquarium = Aquarium(numberOfFish = 6)
+
+    println("Other aquarium: ${anotherAquarium.volume} liters with " +
+            "length ${anotherAquarium.length} " +
+            "width: ${anotherAquarium.width} " +
+            "height: ${anotherAquarium.height} ")
 }
