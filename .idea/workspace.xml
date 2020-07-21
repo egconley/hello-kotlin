@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c125730-422b-4f5e-ae61-1c361120bcc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../backend/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/kotlin/com/egconley/MovieReviewBoard/HelloWorld.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/kotlin/com/egconley/MovieReviewBoard/MovieReviewBoardApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/kotlin/com/egconley/MovieReviewBoard/Security/SecurityConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/kotlin/com/egconley/MovieReviewBoard/MovieReviewBoardApplicationTests.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1exycSwGqHXbjFUrUZPo1ESkClM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="hello-kotlin" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Kotlin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AMSKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.AMSKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c125730-422b-4f5e-ae61-1c361120bcc8" name="Default Changelist" comment="" />
+      <created>1595277617992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595277617992</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="127" y="23" key="#Project_Structure" timestamp="1595277678546">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state x="127" y="23" key="#Project_Structure/0.23.1280.730/1280.23.1024.745@0.23.1280.730" timestamp="1595277678546" />
+    <state x="60" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595286973420">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="60" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595286973420" />
+    <state x="435" y="95" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595286869068">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="435" y="95" key="#com.intellij.ide.macro.MacrosDialog/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595286869068" />
+    <state width="1238" height="189" key="GridCell.Tab.0.bottom" timestamp="1595288175863">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="189" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595288175863" />
+    <state width="1238" height="189" key="GridCell.Tab.0.center" timestamp="1595288175861">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="189" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595288175861" />
+    <state width="1238" height="189" key="GridCell.Tab.0.left" timestamp="1595288175860">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="189" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595288175860" />
+    <state width="1238" height="189" key="GridCell.Tab.0.right" timestamp="1595288175862">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1238" height="189" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1024.745@0.23.1280.728" timestamp="1595288175862" />
+    <state x="140" y="31" key="SettingsEditor" timestamp="1595277742581">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state x="140" y="31" key="SettingsEditor/0.23.1280.730/1280.23.1024.745@0.23.1280.730" timestamp="1595277742581" />
+  </component>
+</project>
